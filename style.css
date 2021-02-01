@@ -140,3 +140,52 @@ li {
   margin-right: 50px;
   font-size: 1.3rem;
 }
+
+hr {
+  margin-right: 140px;
+  margin-left: 80px;
+}
+.motto {
+  color: white;
+  text-align: right;
+  margin-right: 140px;
+  margin-top: 20px;
+}
+.bold {
+  font-weight: 700;
+}
+.bmw-title {
+  display: flex;
+  color: white;
+  margin-top: 20px;
+  margin-right: 50px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.bmw-title h1 {
+  margin-right: 200px;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.bmw-title h2 {
+  margin-right: 5px;
+  font-size: 18px;
+}
+#features {
+  color: white;
+  justify-content: flex-start;
+  display: flex;
+  font-size: 20px;
+  margin-top: 250px;
+}
+.price {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.get-started {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 105px;
+  margin-top: 20px;
+}

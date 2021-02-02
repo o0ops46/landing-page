@@ -122,10 +122,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html {
+#first-page {
   background-image: url("https://www.bmw.co.uk/content/dam/bmw/common/all-models/m-series/m5-sedan/2020/Highlights/bmw-5-series-sedan-m-highlights-sp-xxl.jpg/_jcr_content/renditions/cq5dam.resized.img.980.medium.time1590415891418.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 1px;
 }
 .navbar {
   display: flex;
@@ -174,18 +175,57 @@ hr {
 }
 #features {
   color: white;
-  justify-content: flex-start;
   display: flex;
   font-size: 20px;
-  margin-top: 250px;
 }
 .price {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 3rem;
 }
 .get-started {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
-  margin-right: 105px;
+  margin-bottom: 20%;
+  margin-right: 60px;
   margin-top: 20px;
+}
+.get-started input {
+  width: 150px;
+  border-radius: 20px;
+  border: 0px solid white;
+  padding-left: 25px;
+  height: 25px;
+  position: relative;
+  margin-right: 110px;
+}
+button {
+  width: 100px;
+  background-color: white;
+  border: 0px solid white;
+  border-radius: 20px;
+  color: grey;
+  margin-top: 50px;
+  font-weight: 700;
+  position: absolute;
+  height: 20px;
+  margin-right: 180px;
+}
+button:hover {
+  color: red;
+  height: 25px;
+  font-weight: 700;
+}
+.second-section {
+  font-size: 38px;
+  margin-top: 100px;
+  font-weight: 100;
+}
+#highlights {
+}
+.raw-power img {
+  width: 300px;
+  height: 400px;
+  margin-top: 50px;
 }

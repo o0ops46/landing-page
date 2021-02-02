@@ -164,15 +164,12 @@ hr {
   align-items: flex-end;
 }
 .bmw-title h1 {
-  margin-right: 200px;
+  margin-right: 100px;
   font-weight: 800;
   font-size: 24px;
   margin-bottom: 15px;
 }
-.bmw-title h2 {
-  margin-right: 5px;
-  font-size: 18px;
-}
+
 #features {
   color: white;
   display: flex;
@@ -219,13 +216,69 @@ button:hover {
 }
 .second-section {
   font-size: 38px;
-  margin-top: 100px;
+  margin-top: 70px;
+  margin-left: 50px;
   font-weight: 100;
+  margin-bottom: 50px;
 }
 #highlights {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
-.raw-power img {
-  width: 300px;
-  height: 400px;
-  margin-top: 50px;
+@media only screen and (max-width: 1200px) {
+  #highlights {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+#highlights h3 {
+  font-weight: 200;
+  font-size: 100px;
+  margin-top: 200px;
+}
+#highlights h4 {
+  font-size: 24px;
+}
+.raw-power {
+  color: white;
+  background-image: url("https://www.bmw.co.uk/content/bmw/marketGB/bmw_co_uk/en_GB/all-models/m-series/m5-saloon/2020/highlights/jcr:content/par/highlight_665/highlightitems/highlightitem_f706/image/mobile.transform/highlight/image.1591878193747.jpg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 350px;
+}
+
+.handle-more {
+  color: white;
+  background-image: url("https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/1-bmw-m5-competition-2018-fd-hero-front.jpg?itok=RUOpnr4F");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 350px;
+}
+.surprise-element {
+  color: white;
+  background-image: url("https://www.drivespark.com/img/2020/06/2021-bmw-m5-headlamp-1592546817.jpg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 350px;
+}
+#see-video {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#see-video h2 {
+  font-size: 32px;
+  margin-left: 25px;
+}
+#see-video p {
+  margin-left: 20px;
+  line-height: 1.6;
+  width: 700px;
+  margin-bottom: 20px;
 }

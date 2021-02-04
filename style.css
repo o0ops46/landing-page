@@ -214,13 +214,13 @@ button:hover {
   height: 25px;
   font-weight: 700;
 }
-.second-section {
+/* .second-section {
   font-size: 38px;
   margin-top: 70px;
   margin-left: 50px;
   font-weight: 100;
   margin-bottom: 50px;
-}
+} */
 #highlights {
   display: flex;
   justify-content: space-around;
@@ -230,6 +230,14 @@ button:hover {
   #highlights {
     display: flex;
     flex-wrap: wrap;
+    height: 300px;
+  }
+
+  .specs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1.6;
   }
 }
 
@@ -281,4 +289,59 @@ button:hover {
   line-height: 1.6;
   width: 700px;
   margin-bottom: 20px;
+}
+h2 {
+  font-size: 38px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  font-weight: 100;
+}
+.specs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  line-height: 1.6;
+}
+#packages img {
+  width: 100%;
+  height: 200px;
+}
+#packages div {
+}
+
+.technology,
+.m-pro,
+.ultimate {
+  height: 450px;
+  width: 300px;
+}
+.specs h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+.specs h4 {
+  text-align: center;
+  font-weight: 600;
+}
+.specs p {
+  margin-left: 30px;
+}
+footer {
+  background-color: #8e8e8e;
+  text-align: right;
+}
+footer a {
+  text-decoration: none;
+}
+.footer-links {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+footer p {
+  padding-bottom: 10px;
 }
